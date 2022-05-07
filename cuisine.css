@@ -21,6 +21,7 @@
         text-align: center;
         text-transform: uppercase;
         font-weight: 600;
+        line-height: 36px;
     }
 
     .wrapper .header, .art, .ingredients, .temps, .rating{
