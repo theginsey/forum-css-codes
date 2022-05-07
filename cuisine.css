@@ -1,6 +1,6 @@
     @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700;600&display=swap');
     .wrapper {
-        margin: 20px;
+        margin: auto;
         padding: 10px;
         height: 50vh;
         max-width: 800px;
