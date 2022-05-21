@@ -33,7 +33,6 @@
         padding: 0 5px; 
         height: 50px; 
         min-width: 450px;
-
         text-transform: uppercase; 
         color: white; 
         font: 30px Oswald; 
@@ -42,6 +41,7 @@
         bottom: 120px;
         line-height: 48px;
         z-index: 1;
+        box-shadow: 5px 5px 1px rgba(0, 0, 0, 0.5);
     } 
      
     .art .feat{
@@ -58,6 +58,7 @@
         text-transform: uppercase; 
         line-height: 20px;
         z-index: 1;
+        box-shadow: 5px 5px 1px rgba(0, 0, 0, 0.5);
     }
 
     .art .date {
