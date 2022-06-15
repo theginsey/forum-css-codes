@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+.G-container {
+    margin: 0 auto;
+	border: 1px solid rgb(225,225,225);
+	width: 95%;
+	max-width: 800px;
+	font-family: 'Roboto Condensed';
+	color: #222222;
+	background-color: #f2f2f2;
+}
+
+.G-container .art {
+	position: relative;
+	margin-bottom: 5px;
+	overflow: hidden;
+}
+
+.G-container .art img {
+	position: relative;
+	width: 100%;
+	height: 200px !important;
+	overflow: hidden;
+	object-fit: cover;
+	object-position: 50% 50%;
+}
+
+.G-container .title {
+	margin: 10px 10px 20px;
+	border-bottom: 2px solid;
+	overflow: hidden;
+	font-family: 'Bebas Neue';
+	font-size: 3em;
+	line-height: 1em;
+	color: var(--primary-color);
+}
+
+.G-container .sstitre {
+	display: inline-block;
+	margin: -20px 10px 0;
+	padding: 2px;
+	font-size: 1.5em;
+	color: #ffffff;
+	background-color: var(--primary-color);
+}
+
+.G-container p {
+	margin: 5px 10px;
+	text-align: justify;
+	font-size: 15px;
+}
+
+q {
+	quotes: "« " " »";
+	margin-left: 0;
+	font-weight: 600;
+	color: #222222;
+}
+
+q::before {
+	content: open-quote;
+}
+
+q::after {
+	content: close-quote;
+}
+
+#jap {
+    color: #009966;
+}
+
+#fra {
+	color: #2998e8;
+}
+
+.didasc {
+    quotes: "– " " –,";
+	font-style: italic;
+	font-weight: 300;
+	color: #000000;
+}
+
+.didasc::before {
+    content: "– "
+}
+
+.didasc::after {
+    content: " –,"
+}
+
+.HRP {
+	margin: 10px;
+	padding: 5px;
+	border: 1px solid rgb(225,225,225);
+	font-size: 1em;
+	font-style: italic;
+	font-weight: 400;
+}
+
+.HRP::before {
+	content: "HRP : ";
+	font-style: normal;
+	font-weight: 800;
+}
+
+.music{
+	margin: 10px;
+	padding: 5px;
+	border: 1px solid #e1e1e1;
+	font-size: 1em;
+	font-style: italic;
+	font-weight: 400;
+}
+
+#off {
+	display: none;
+}
+
+.hidden {
+	display: none;
+}
+
+.hint {
+	text-decoration: underline;
+	font-weight: 500;
+}
+
+.hint:hover .hidden {
+	display: inline;
+	position: absolute;
+	margin: 5px;
+	padding: 5px;
+	border: 1px solid #222222;
+	box-shadow: 5px 5px #222222;
+	color: #222222;
+    background-color: #f7f7f7;
+}
+
+hr {
+	margin: 0 100px 0;
+	border-bottom: 1px solid #a1a1a1;
+}
+
+
+.G-container .didasc {
+	font-weight: 400;
+	color: #000000;
+}
+
+.G-container .feat {
+	margin-top: -36px;
+	padding: 10px;
+	text-align: right;
+}
+
+.fa-music {
+    margin-right: 2px;
+}
+
+.G-container .credits {
+	margin: 10px 10px 0;
+	padding: 5px;
+	border-top: 1px solid;
+	text-align: right;
+}
