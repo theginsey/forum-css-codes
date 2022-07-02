@@ -65,11 +65,11 @@ q::after {
 	content: close-quote;
 }
 
-#jap {
+.jap {
     color: #009966;
 }
 
-#fra {
+.fra {
 	color: #2998e8;
 }
 
@@ -103,17 +103,13 @@ q::after {
 	font-weight: 800;
 }
 
-.music{
+.music {
 	margin: 10px;
 	padding: 5px;
 	border: 1px solid #e1e1e1;
 	font-size: 1em;
 	font-style: italic;
 	font-weight: 400;
-}
-
-#off {
-	display: none;
 }
 
 .hidden {
