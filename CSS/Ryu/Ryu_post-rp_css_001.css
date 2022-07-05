@@ -10,13 +10,13 @@
 	background-color: #f2f2f2;
 }
 
-.G-container .art {
+.G-container > .art {
 	position: relative;
 	margin-bottom: 5px;
 	overflow: hidden;
 }
 
-.G-container .art img {
+.G-container > .art img {
 	position: relative;
 	width: 100%;
 	height: 200px !important;
@@ -25,7 +25,7 @@
 	object-position: 50% 50%;
 }
 
-.G-container .title {
+.G-container > .title {
 	margin: 10px 10px 20px;
 	border-bottom: 2px solid;
 	overflow: hidden;
@@ -35,7 +35,7 @@
 	color: var(--primary-color);
 }
 
-.G-container .sstitre {
+.G-container > .sstitre {
 	display: inline-block;
 	margin: -20px 10px 0;
 	padding: 2px;
@@ -44,7 +44,7 @@
 	background-color: var(--primary-color);
 }
 
-.G-container p {
+.G-container > p {
 	margin: 5px 10px;
 	text-align: justify;
 	font-size: 15px;
@@ -65,15 +65,15 @@ q::after {
 	content: close-quote;
 }
 
-.jap {
+p > .jap {
     color: #009966;
 }
 
-.fra {
+p > .fra {
 	color: #2998e8;
 }
 
-.didasc {
+.G-container > .didasc {
     quotes: "– " " –,";
 	font-style: italic;
 	font-weight: 300;
@@ -88,7 +88,7 @@ q::after {
     content: " –,"
 }
 
-.HRP {
+.G-container > .HRP {
 	margin: 10px;
 	padding: 5px;
 	border: 1px solid rgb(225,225,225);
@@ -103,7 +103,7 @@ q::after {
 	font-weight: 800;
 }
 
-.music {
+.G-container > .music {
 	margin: 10px;
 	padding: 5px;
 	border: 1px solid #e1e1e1;
@@ -112,7 +112,7 @@ q::after {
 	font-weight: 400;
 }
 
-.hidden {
+.G-container > .hidden {
 	display: none;
 }
 
@@ -138,12 +138,12 @@ hr {
 }
 
 
-.G-container .didasc {
+.G-container > .didasc {
 	font-weight: 400;
 	color: #000000;
 }
 
-.G-container .feat {
+.G-container > .feat {
 	margin-top: -36px;
 	padding: 10px;
 	text-align: right;
@@ -153,7 +153,7 @@ hr {
     margin-right: 2px;
 }
 
-.G-container .credits {
+.G-container > .credits {
 	margin: 10px 10px 0;
 	padding: 5px;
 	border-top: 1px solid;
