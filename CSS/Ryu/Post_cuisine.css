@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap'); 
+:root { 
+    --primary-color: #ca4e28; 
+    --font-color: #ca4e28; 
+    --bg-color: rgb(251, 238, 234);
+} 
+
+.cooking__container { 
+    margin: 0 auto; 
+    padding: 10px; 
+    border: 3px solid var(--primary-color); 
+    max-width: 800px; 
+    width: 100%; 
+    color: var(--font-color); 
+    font-family: 'Roboto Condensed'; 
+    font-size: 1em; 
+    text-align: justify; 
+    background-color: var(--bg-color); 
+} 
+
+.cooking__container h2{ 
+    margin: 0; 
+    margin-bottom: 5px; 
+    font-family: 'Amatic SC'; 
+    font-size: 48px; 
+    font-weight: 600; 
+    text-align: center; 
+    text-transform: uppercase; 
+} 
+
+.cooking__container h3 { 
+    margin: 5px 0; 
+    padding-left: 10px; 
+    border-bottom: 2px solid var(--primary-color); 
+    font-family: 'Amatic SC'; 
+    font-size: 36px; 
+    line-height: 36px; 
+} 
+
+.cooking__coverimg { 
+    width: 100%; 
+    height: 250px; 
+    overflow: hidden; 
+    object-fit: cover; 
+} 
+
+.cooking__liste { display: inline; } 
+
+.cooking__legende { 
+    margin-top: 200px; 
+    border-top: 2px solid var(--primary-color); 
+    text-align: center; 
+    text-transform: uppercase; 
+    font-size: 0.8rem; 
+} 
+
+.cooking__legende .fa-solid { 
+    font-size: 1.5rem; 
+    vertical-align: middle; 
+    margin: 0 0.5rem; 
+} 
+
+.fa-solid { margin-right: 0.5rem; } 
+.fa-drumstick-bite { color: #b91310; } 
+.fa-fish { color: #008DC5; } 
+.fa-seedling { color: #48B063; } 
+.fa-plate-wheat { color: #018754; } 
+.fa-pepper-hot { color: #db0000; } 
+.fa-wine-glass { color: #d40f75; } 
+.fa-egg { color: #f6c928; } 
+.fa-cow { color:#faac0e; }
