@@ -29,7 +29,6 @@
 } 
 
 .cooking__container h3 { 
-    margin: 5px 0; 
     padding-left: 10px; 
     border-bottom: 2px solid var(--primary-color); 
     font-family: 'Amatic SC'; 
