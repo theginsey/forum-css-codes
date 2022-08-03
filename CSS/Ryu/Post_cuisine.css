@@ -47,7 +47,6 @@
 .cooking__liste { display: inline; } 
 
 .cooking__legende { 
-    margin-top: 200px; 
     border-top: 2px solid var(--primary-color); 
     text-align: center; 
     text-transform: uppercase; 
