@@ -138,7 +138,7 @@ hr {
 }
 
 
-.G-container > .didasc {
+.G-container .didasc {
 	font-weight: 400;
 	color: #000000;
 }
