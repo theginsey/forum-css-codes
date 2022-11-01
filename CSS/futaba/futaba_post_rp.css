@@ -62,7 +62,7 @@
 .futaba__body {
     grid-area: body;
     padding: 50px 15px 15px 15px;
-    font-family: 'maven pro';
+    font-family: 'Maven Pro', sans-serif;
     font-size: 15px;
     text-align: justify;
 }
