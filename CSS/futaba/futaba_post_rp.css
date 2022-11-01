@@ -69,18 +69,18 @@
 }
 
 .futaba__body q {
-	  quotes: "« " " »";
-  	margin-left: 0;
-  	font-weight: 600;
-  	color: var(--dialogue);
+    quotes: "« " " »";
+    margin-left: 0;
+    font-weight: 600;
+    color: var(--dialogue);
 }
 
 q::before {
-	  content: open-quote;
+    content: open-quote;
 }
 
 q::after {
-  	content: close-quote;
+    content: close-quote;
 }
 
 .futaba__footer {
