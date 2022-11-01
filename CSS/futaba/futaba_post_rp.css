@@ -1,0 +1,93 @@
+.hidden {
+    display: none;
+}
+
+.futaba__container {
+    display: grid;
+    grid-template-columns: 500px;
+    grid-template-rows: 150px 1fr 25px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    grid-template-areas:
+        "header"
+        "body"
+        "footer";
+    overflow: hidden; 
+    width: 98%;
+    max-width: 500px;
+    border: 2px solid var(--couleur2);
+    border-radius: 10px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.futaba__header {
+    grid-area: header;
+    height: 100px;
+    background-color: var(--couleur1);
+    box-shadow: 0px 5px 5px 3px rgba(85, 85, 85, 0.20);
+}
+
+.futaba__avatar {
+    grid-area: header;
+    position: relative;
+    overflow: hidden;
+    width: 120px;
+    height: 120px;
+    margin: 30px auto;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0px 3px 10px rgba(85, 85, 85, 0.50);
+    background-color: #fff;
+}
+
+.futaba__avatar img {
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    object-fit: cover;
+}
+
+.futaba__titre {
+    grid-area: body;
+    margin-top: 10px;
+    color: var(--couleur2);
+    font-family: 'Satisfy', cursive;
+    font-size: 2em;
+    text-align: center;
+}
+
+.futaba__body {
+    grid-area: body;
+    padding: 50px 15px 15px 15px;
+    font-family: 'maven pro';
+    font-size: 15px;
+    text-align: justify;
+}
+
+.futaba__body q {
+	  quotes: "« " " »";
+  	margin-left: 0;
+  	font-weight: 600;
+  	color: var(--dialogue);
+}
+
+q::before {
+	  content: open-quote;
+}
+
+q::after {
+  	content: close-quote;
+}
+
+.futaba__footer {
+    grid-area: footer;
+    padding: 5px;
+    background-color: var(--couleur2);
+    color: #fff;
+    font-family: calibri;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
