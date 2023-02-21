@@ -1,0 +1,103 @@
+    @import url('https://fonts.googleapis.com/css?family=Vidaloka|Roboto+Condensed:400,700|Roboto:400,700');
+    .kaoru_container {
+        margin: 0 auto;
+        max-width: 650px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5rem;
+    }
+
+    .kaoru_post {
+        border: 3px solid var(--maincolor);
+        box-sizing: border-box;
+        overflow: hidden;
+        
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 60px 1fr;
+        grid-template-areas: 
+            "header"
+            "body";
+    }
+
+    .kaoru_container::after {
+        display: flex;
+        flex-direction: row-reverse;
+        font-size: 11px;
+        font-weight: 800;
+        color: #000000;
+        content: "Credits: Gin";
+    }
+
+    .kaoru_header {
+        grid-area: header;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        padding: 0 35px;
+        background-color: var(--maincolor);
+    }
+
+    .kaoru_titre {
+        display: flex;
+        /* display:inline-block; */
+        align-items: center;
+        justify-content: center;
+        /* width: 300px; */
+        height: 34px;
+        padding: 0px 30px;
+        margin: 0px 85px 0px 70px;
+        border-radius: 25px;
+        background-color: white;
+        font-size: 12px;
+        text-align: center;
+        color: var(--maincolor);
+    }
+
+    .kaoru_body {
+        grid-area: body;
+        padding: 15px;
+    }
+
+    .kaoru_infos {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin-bottom: -15px;
+        border-bottom: 2px solid var(--maincolor);
+    }
+
+    .kaoru_post q {
+        quotes: "« " " »";
+	    margin-left: 0;
+    	font-weight: 600;
+    }
+
+    q::before {
+    	content: open-quote;
+    }
+
+    q::after {
+	    content: close-quote;
+    }
+
+    .kaoru_container .jap {
+        color: #c82489;
+    }
+
+    .kaoru_container .fra {
+        color: #1d99db;
+    }
+
+    .kaoru_feat {
+        font-weight:600;
+    } 
+
+    .kaoru_feat::before { 
+        content: "feat. "; 
+        font-weight:400;
+    } 
+
+    .white {
+        color: white;
+    }
