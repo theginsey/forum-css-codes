@@ -36,6 +36,7 @@
 .cookbook_container .coverimg {
     margin: 0px -10px;
     width: calc(100% + 20px);
+    max-width: 110%;
     height: 250px;
     overflow: hidden;
     object-fit: cover;
@@ -52,9 +53,9 @@
 }
 
 .cookbook_container .categorie {
-    margin: 20px -10px 10px -10px;
+    margin: 0px -10px;
     padding-left: 10px;
-    
+    padding-bottom: 5px;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 1.5em;
     text-transform: uppercase;
