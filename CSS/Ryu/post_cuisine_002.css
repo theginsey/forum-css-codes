@@ -12,7 +12,8 @@
 
 .cookbook_container {
     margin: 0 auto;
-    width: 800px;
+    width: 98%;
+    max-width: 800px;
     padding: 10px;
     box-sizing: border-box;
     box-shadow: 5px 5px var(--body-color);
