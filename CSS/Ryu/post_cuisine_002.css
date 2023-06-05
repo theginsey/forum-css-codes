@@ -1,0 +1,116 @@
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.fa-solid {
+    margin-right: 10px;
+}
+
+.cookbook_container {
+    margin: 0 auto;
+    width: 800px;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px var(--body-color);
+    
+    display: flex;
+    flex-direction: column;
+    border: 2px solid var(--body-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.cookbook_container .titre {
+    margin: 5px -10px 15px -10px;
+    
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.cookbook_container .coverimg {
+    margin: 0px -10px;
+    width: calc(100% + 20px);
+    height: 250px;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: top;
+}
+
+.cookbook_container .coverimg2 {
+    margin: 0px -10px;
+    width: calc(100% + 20px);
+    height: 250px;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: 0px -25px;
+}
+
+.cookbook_container .categorie {
+    margin: 20px -10px 10px -10px;
+    padding-left: 10px;
+    
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.5em;
+    text-transform: uppercase;
+
+    border-bottom: 2px solid var(--body-color);
+}
+
+.cookbook_container .table {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.cookbook_container .table li {
+    padding: 0 10px;
+}
+
+.cookbook_container .table li:nth-child(1) {
+    
+}
+
+.cookbook_container .table li:nth-child(2) {
+    flex-grow: 3;
+}
+
+.cookbook_container .table li:nth-child(3)::before {
+    content: 'par ';
+}
+
+.cookbook_container .separator {
+    margin: 20px -10px 10px -10px;
+    padding-left: 10px;
+    border-bottom: 2px solid var(--body-color);
+}
+
+.cookbook_container .legende {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.cookbook_container .legende li:nth-child(even) {
+    padding-right: 10px;
+}
+
+.fa-bacon { color: #b91310; } 
+.fa-fish { color: #008DC5; } 
+.fa-seedling { color: #48B063; } 
+.fa-plate-wheat { color: #018754; } 
+.fa-pepper-hot { color: #db0000; } 
+.fa-wine-glass { color: #d40f75; } 
+.fa-egg { color: #f6c928; } 
+.fa-cow { color:#faac0e; }
