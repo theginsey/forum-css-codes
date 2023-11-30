@@ -2,22 +2,26 @@
 
 .G-container {
     margin: 0 auto;
+	padding: 0 10px;
 	border: 1px solid rgb(225,225,225);
 	width: 95%;
 	max-width: 800px;
 	font-family: 'Roboto Condensed';
 	color: #222222;
 	background-color: #fafafa;
+	box-sizing: border-box;
+
+	display: flex;
+	flex-direction: column;
 }
 
+/* IMAGE DE COUVERTURE */
 .G-container > .art {
-	position: relative;
-	margin-bottom: 5px;
 	overflow: hidden;
+	margin: 0 -10px;
 }
 
 .G-container > .art img {
-	position: relative;
 	width: 100%;
 	height: 200px !important;
 	overflow: hidden;
@@ -25,8 +29,9 @@
 	object-position: 50% 50%;
 }
 
+/* TITRE DU RP */
 .G-container > .title {
-	margin: 10px 10px 20px;
+	margin: 10px 0px 20px;
 	border-bottom: 2px solid;
 	overflow: hidden;
 	font-family: 'Bebas Neue';
@@ -35,17 +40,60 @@
 	color: var(--primary-color);
 }
 
+/* INFOS DU RP : DATE, LIEU */
 .G-container > .sstitre {
-	display: inline-block;
-	margin: -20px 10px 0;
-	padding: 2px;
+	width: max-content;
+	display: inline-flex;
+	margin: -20px 0 0;
+	padding: 2px 10px;
 	font-size: 1.5em;
 	color: #ffffff;
 	background-color: var(--primary-color);
 }
 
+/* FEAT */
+.G-container > .feat {
+	margin-top: -36px;
+	padding: 10px;
+	text-align: right;
+}
+
+.G-container > .feat::before {
+	content: "feat. "
+}
+
+/* BALISES HRP ET MUSIQUE */
+.G-container > .HRP {
+	margin: 10px;
+	padding: 5px;
+	border: 1px solid rgb(225,225,225);
+	font-size: 1em;
+	font-style: italic;
+	font-weight: 400;
+}
+
+.HRP::before {
+	content: "HRP : ";
+	font-style: normal;
+	font-weight: 800;
+}
+
+.G-container > .music {
+	margin: 10px;
+	padding: 5px;
+	border: 1px solid #e1e1e1;
+	font-size: 1em;
+	font-style: italic;
+	font-weight: 400;
+}
+
+.fa-music {
+    margin-right: 2px;
+}
+
+/* CORPS DU POST */
 .G-container > p {
-	margin: 15px 25px;
+	margin: 10px 15px;
 	text-align: justify;
 	font-size: 15px;
 }
@@ -73,10 +121,11 @@ p > .fra {
 	color: #2998e8;
 }
 
+/* BALISES DIDASCALIES */
 .G-container > .didasc {
     quotes: "– " " –,";
 	font-style: italic;
-	font-weight: 300;
+	font-weight: 400;
 	color: #000000;
 }
 
@@ -88,34 +137,13 @@ p > .fra {
     content: " –,"
 }
 
-.G-container > .HRP {
-	margin: 10px;
-	padding: 5px;
-	border: 1px solid rgb(225,225,225);
-	font-size: 1em;
-	font-style: italic;
-	font-weight: 400;
-}
 
-.HRP::before {
-	content: "HRP : ";
-	font-style: normal;
-	font-weight: 800;
-}
-
-.G-container > .music {
-	margin: 10px;
-	padding: 5px;
-	border: 1px solid #e1e1e1;
-	font-size: 1em;
-	font-style: italic;
-	font-weight: 400;
-}
-
+/* CODE POUR CACHER */
 .G-container > .hidden {
 	display: none;
 }
 
+/* CODE IMAGE AU SURVOL */
 .hint {
 	text-decoration: underline;
 	font-weight: 500;
@@ -132,30 +160,17 @@ p > .fra {
     background-color: #f7f7f7;
 }
 
+/* SEPARATEUR */
 hr {
 	margin: 0 100px 0;
 	border-bottom: 1px solid #a1a1a1;
 }
 
-
-.G-container .didasc {
-	font-weight: 400;
-	color: #000000;
-}
-
-.G-container > .feat {
-	margin-top: -36px;
-	padding: 10px;
-	text-align: right;
-}
-
-.fa-music {
-    margin-right: 2px;
-}
-
 .G-container > .credits {
-	margin: 10px 10px 0;
+	margin: 10px -10px 0;
 	padding: 5px;
 	border-top: 1px solid;
 	text-align: right;
+
+	content: "Code: Gin"
 }
