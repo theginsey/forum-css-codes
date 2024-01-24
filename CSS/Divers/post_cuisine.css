@@ -34,8 +34,8 @@
 }
 
 .cookbook_container .coverimg {
-    margin: 0px -10px;
-    width: calc(100% + 20px);
+    margin: 0px;
+    width: 100%;
     height: 250px;
     overflow: hidden;
     object-fit: cover;
