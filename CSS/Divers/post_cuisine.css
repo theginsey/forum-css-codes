@@ -27,9 +27,9 @@
 
 .cookbook_container .titre {
     margin: 5px -10px 15px -10px;
-    
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 2em;
+    line-height: 1em;
     text-transform: uppercase;
     text-align: center;
 }
