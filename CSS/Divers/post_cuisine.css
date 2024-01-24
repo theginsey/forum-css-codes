@@ -44,12 +44,11 @@
 }
 
 .cookbook_container .coverimg2 {
-    margin: 0px px;
+    margin: 0px;
     width: 100%;
     height: 250px;
     overflow: hidden;
     object-fit: cover;
-    object-position: 0px -25px;
 }
 
 .cookbook_container .categorie {
