@@ -83,14 +83,18 @@
 
 .cookbook_container .legende {
     display: grid;
-    grid-template-columns: 5% 30% 5% 30% 5% 30%;
+    grid-template-columns: 5% 45% 5% 45%;
+    
 }
 
 .fa-bacon { color: #b91310; } 
-.fa-fish { color: #008DC5; } 
+.fa-fish-fins { color: #008DC5; } 
 .fa-seedling { color: #48B063; } 
-.fa-plate-wheat { color: #018754; } 
+.fa-carrot { color: #018754; } 
 .fa-pepper-hot { color: #db0000; } 
 .fa-wine-glass { color: #d40f75; } 
-.fa-egg { color: #f6c928; } 
-.fa-cow { color:#faac0e; }
+.fa-egg { color: #f2cf50; } 
+.fa-cow { color:#cdb293; }
+.fa-wheat-awn {color:#a26927; }
+.fa-shrimp {color: #ef2711; }
+.fa-cheese {color: #f4b839;}
