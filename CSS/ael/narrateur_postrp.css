@@ -5,10 +5,19 @@
     src: url('https://theginsey.github.io/CSS/fonts/Cotta-Free.otf');
 }
 
+#select {
+    user-select: all;
+}
+
+.title {
+    font-family: "Montserrat";
+    color: #f33333;
+}
+
 pre {
     background: #f4f4f4;
     border: 1px solid #ddd;
-    border-left: 3px solid #f36d33;
+    border-left: 3px solid #f33333;
     color: #666;
     page-break-inside: avoid;
     font-family: monospace;
